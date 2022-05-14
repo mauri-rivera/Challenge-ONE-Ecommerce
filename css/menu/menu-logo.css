@@ -1,0 +1,15 @@
+.menu__logo{
+    display: flex;
+}
+
+@media screen and (min-width: 0px){
+    .menu__logo{
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu__logo{
+        margin-right: 2rem;
+    }
+}

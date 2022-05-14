@@ -1,0 +1,43 @@
+:root{
+    --raleway: 'Raleway', sans-serif;
+
+    --background-azul: #2A7AE4;
+    --background-azul-claro: #EAF2FD;
+    --background-blanco: #FFFFFF;
+    --background-plateado-claro: #F5F5F5;
+    --background-plateado: #E5E5E5;
+
+    --color-azul: #2A7AE4;
+    --color-blanco: #FFFFFF;
+    --color-plomo: #A2A2A2;
+    --color-negro: #464646;
+    --color-error: #DE2424;
+    --sombra-letra: #ACA4A4;
+    --sombra-suave: #ACA4A4;
+}
+
+body{
+    font-family: var(--raleway);
+}
+
+.contenidoNuevo,
+.contenidoPrincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidoNuevoEscondido,
+.contenidoPrincipalEscondido{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

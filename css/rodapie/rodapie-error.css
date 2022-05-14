@@ -1,0 +1,21 @@
+.rodapie__error--campo{
+    color: transparent;
+    font-size: .625rem;
+    font-weight: bold;
+    margin: .25rem 0 .3rem .75rem;
+}
+
+.rodapie__error .rodapie__mensaje,
+.rodapie__error .rodapie__nombre{
+    border-bottom: 2px solid var(--color-error);
+}
+
+.rodapie__error .rodapie__texto--mensaje,
+.rodapie__error .rodapie__texto--nombre,
+.rodapie__error .rodapie__error--campo{
+    color: var(--color-error);
+}
+
+.rodapie__error .rodapie__error--campo{
+    margin: .25rem 0 .3rem .75rem;
+}

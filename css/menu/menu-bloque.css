@@ -1,0 +1,28 @@
+.menu__bloque{
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (min-width: 0px){
+    .menu__bloque{
+        justify-content: space-around;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu__bloque{
+        justify-content: space-between;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .menu__bloque{
+        justify-content: space-between;
+        margin: 0 10.56%;
+        width: 78.88%;
+    }
+}

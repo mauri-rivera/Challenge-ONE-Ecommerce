@@ -1,0 +1,23 @@
+.diverso__bloque{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0px){
+    .diverso__bloque{
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .diverso__bloque{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .diverso__bloque{
+        padding: 2rem 10.56%;
+        width: 78.88%;
+    }
+}

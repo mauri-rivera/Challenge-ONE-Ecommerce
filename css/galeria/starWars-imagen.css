@@ -1,0 +1,21 @@
+.starWars__imagen{
+    height: 10.875rem;
+}
+
+@media screen and (min-width: 0px){
+    .starWars__imagen{
+        width: 9.75rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .starWars__imagen{
+        width: 10.25rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .starWars__imagen{
+        width: 11rem;
+    }
+}

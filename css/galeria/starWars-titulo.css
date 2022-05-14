@@ -1,0 +1,19 @@
+.starWars__titulo{
+    color: var(--color-negro);
+}
+
+@media screen and (min-width: 0px){
+    .starWars__titulo{
+        font-size: 1.375rem;
+        font-weight: bold;
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .starWars__titulo{
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 2.375rem;
+    }
+}

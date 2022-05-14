@@ -1,0 +1,27 @@
+.rodapie__menu{
+    display: flex;
+    flex-direction: column;
+    height: 14.625rem;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 0px){
+    .rodapie__menu{
+        align-items: center;
+        margin: 1rem 0 2rem 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .rodapie__menu{
+        align-items: flex-start;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .rodapie__menu{
+        align-items: flex-start;
+        margin: 0 7.777777778vw;
+    }
+}

@@ -1,0 +1,41 @@
+.rodapie__envio{
+    background: var(--color-azul);
+    border: none;
+    color: var(--color-blanco);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.rodapie__envio:hover{
+    align-content: center;
+    background: var(--color-blanco);
+    border: 2px solid var(--color-azul);
+    color: var(--color-azul);
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    outline: none; 
+}
+
+@media screen and (min-width: 0px){
+    .rodapie__envio{
+        font-size: .875rem;
+        font-weight: 600;
+        height: 2.5rem;
+        line-height: 1rem;
+        padding: .75rem 1rem;
+        width: 8.3125rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .rodapie__envio{
+        font-size: 1rem;
+        font-weight: 400;
+        height: 3.1875rem;
+        line-height: 1.1875rem;
+        padding: 1rem;
+        width: 9rem;
+    }
+}

@@ -1,0 +1,47 @@
+.banner__imagen .banner__informacion{
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 0px){
+    .banner__imagen{
+        background: url(../../img/Hero3.png) no-repeat center / cover; 
+        border: none;
+        height: 12rem;  
+        width: 100%;
+    }
+    
+    .banner__imagen .banner__informacion{
+        padding: 1rem;
+        top: calc(50% + 1.95rem);
+    }
+}
+
+@media screen and (min-width: 768px){ 
+    .banner__imagen{
+        background: url(../../img/Hero2.png) no-repeat center / cover; 
+        border: none;
+        width: 100%;
+        height: 22rem;
+    }
+    
+    .banner__imagen .banner__informacion{
+        padding: 2rem;
+        top: calc(50% + 3.99rem);
+    }
+}
+
+@media screen and (min-width: 922px){
+    .banner__imagen{
+        background: url(../../img/Hero.png) no-repeat center / cover; 
+        border: none;
+        height: 22rem;
+        width: 100%;
+    }
+    
+    .banner__imagen .banner__informacion{
+        padding: 2rem 10.56%;
+        top: calc(50% + 3.66rem);
+    }
+}

@@ -1,0 +1,43 @@
+.menu__lupa--busqueda, 
+.menu__lupa--busquedaHabilitada{
+    background: var(--background-plateado-claro);
+}
+
+@media screen and (min-width: 0px){
+    .menu__lupa--busqueda{
+        display: none;
+    }
+
+    .menu__lupa--busquedaHabilitada{
+        display: inline-flex;
+    }
+
+    .menu__lupa--login{
+        display: flex;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu__lupa--busqueda,
+    .menu__lupa--busquedaHabilitada{
+        display: inline-flex;
+    }
+
+    .menu__lupa--login{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .menu__lupa--busqueda,
+    .menu__lupa--busquedaHabilitada{
+        display: inline-flex;
+    }
+
+    .menu__lupa--login{
+        display: none;
+    }
+}
+

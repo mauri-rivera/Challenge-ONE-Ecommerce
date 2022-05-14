@@ -1,0 +1,16 @@
+.rodapie__orientacion{
+    display: flex;
+}
+
+@media screen and (min-width: 0px){
+    .rodapie__orientacion{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .rodapie__orientacion{
+        align-items: flex-start;
+        flex-direction: row;
+    }
+}

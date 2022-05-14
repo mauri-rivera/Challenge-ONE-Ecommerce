@@ -1,0 +1,22 @@
+.diverso__categoria{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0px){
+    .diverso__categoria{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .diverso__categoria{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .diverso__categoria{
+        padding: 2rem 0;
+    }
+}

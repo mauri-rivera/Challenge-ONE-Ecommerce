@@ -1,0 +1,42 @@
+.rodapie__mensaje, 
+.rodapie__mensaje:focus{
+    border: none;
+    box-sizing: border-box;
+    height: 5.125rem;
+    line-height: 1.25rem;
+    padding: 1.6rem .75rem 0 .75rem;  
+}
+
+.rodapie__mensaje{
+    border-bottom: 2px solid var(--sombra-suave);
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    z-index: 0;
+}
+
+.rodapie__mensaje:focus{
+    border-bottom: 2px solid var(--color-negro);
+    color: var(--color-negro);
+    padding: 1.6rem .75rem 0 .75rem;
+}
+
+.rodapie__mensaje:focus + .rodapie__texto--mensaje,
+.rodapie__mensaje:not(:placeholder-shown) + .rodapie__texto--mensaje{
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1rem;
+    top: 5.05rem; 
+}
+
+.rodapie__mensaje:focus + .rodapie__texto--mensaje{
+    color: var(--color-negro);
+}
+
+.rodapie__mensaje::placeholder{
+    color: transparent;
+}
+
+.rodapie__mensaje:focus::placeholder{
+    color: var(--sombra-letra);
+}

@@ -1,0 +1,39 @@
+.consola__producto--nombre,
+.consola__producto--precio{
+    color: var(--color-negro);
+}
+
+.consola__producto--detalle,
+.consola__producto--precio{
+    font-weight: 700;
+}
+
+.consola__producto--nombre{
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.consola__producto--detalle{
+    color: var(--color-azul);
+    text-decoration: none;
+}
+
+.consola__producto--detalle:hover{
+    color: var(--color-negro);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0px){
+    .consola__producto--detalle{
+        font-size: .875rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .consola__producto--detalle{
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+}

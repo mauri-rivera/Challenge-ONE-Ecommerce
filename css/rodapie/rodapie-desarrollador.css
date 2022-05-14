@@ -1,0 +1,9 @@
+.rodapie__desarrollador{
+    align-items: center;
+    background: var(--background-blanco);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    width: 100%;
+}
+

@@ -1,0 +1,12 @@
+.rodapie__acceso{
+    color: var(--color-negro);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1875rem;
+    text-decoration: none;
+}
+
+.rodapie__acceso:hover{
+    color: var(--color-azul);
+    text-decoration: underline;
+}

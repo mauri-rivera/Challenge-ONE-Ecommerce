@@ -1,0 +1,27 @@
+.starWars__lista{
+    align-items: center;
+    color: var(--color-azul);
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.starWars__lista:hover{
+    color: var(--color-negro);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0px){
+    .starWars__lista{
+        font-size: .875rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .starWars__lista{
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+}

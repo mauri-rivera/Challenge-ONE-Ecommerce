@@ -1,0 +1,13 @@
+@media screen and (min-width: 0px){
+    .menu__joystick{
+        height: 1.75rem;
+        width: 1.775625rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .menu__joystick{
+        height: 3.125rem;
+        width: 3.125rem;
+    }
+}

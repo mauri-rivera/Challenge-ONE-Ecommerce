@@ -1,0 +1,21 @@
+.starWars__flecha{
+    bottom: .1rem;
+    margin-left: .5rem;
+    position: relative;
+}
+
+@media screen and (min-width: 0px){
+    .starWars__flecha{
+        bottom: 0rem;
+        height: 1rem;
+        width: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .starWars__flecha{
+        bottom: .1rem;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}

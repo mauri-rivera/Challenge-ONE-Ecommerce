@@ -1,0 +1,22 @@
+.banner__frase{
+    color: var(--color-blanco);
+}
+
+@media screen and (min-width: 0px){
+    .banner__frase{
+        font-size: .875rem;
+        font-weight: 600;
+        line-height: 1rem;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (min-width: 768px){ 
+    .banner__frase{
+        font-size: 1.375rem;
+        font-weight: bold;
+        line-height: 1.625rem;
+        margin-bottom: 1rem;
+    }
+}
+

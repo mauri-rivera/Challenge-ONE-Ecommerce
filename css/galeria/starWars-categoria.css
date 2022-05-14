@@ -1,0 +1,22 @@
+.starWars__categoria{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0px){
+    .starWars__categoria{
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .starWars__categoria{
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .starWars__categoria{
+        padding-top: 2rem;
+    }
+}

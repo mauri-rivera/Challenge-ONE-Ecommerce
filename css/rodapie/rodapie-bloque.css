@@ -1,0 +1,22 @@
+@media screen and (min-width: 0px){
+    .rodapie__bloque{
+        margin: 0;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .rodapie__bloque{
+        margin: 0;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .rodapie__bloque{
+        margin: 0 10.56%;
+        padding: 4rem 0;
+        width: 78.88%;
+    }
+}
+

@@ -1,0 +1,6 @@
+.diverso__nota{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    grid-area: card-detalle;
+}

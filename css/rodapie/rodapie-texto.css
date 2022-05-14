@@ -1,0 +1,27 @@
+.rodapie__texto--mensaje,
+.rodapie__texto--nombre
+{
+    color: var(--sombra-letra);
+    font-size: 1rem;
+    font-weight: 400;
+    left: .75rem; 
+    line-height: 1.25rem;
+    position: absolute; 
+    transition: .5s all;
+    z-index: 1;
+}
+
+.rodapie__texto--mensaje{
+    top: 5.9rem;
+}
+
+.rodapie__texto--nombre{
+    top: 1.1rem;
+}
+
+.rodapie__texto--desarrollador{
+    color: var(--color-negro);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1875rem;
+}

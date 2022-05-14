@@ -1,0 +1,4 @@
+.banner__informacion{
+    display: flex;
+    flex-direction: column;
+}

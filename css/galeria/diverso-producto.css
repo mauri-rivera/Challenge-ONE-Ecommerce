@@ -1,0 +1,39 @@
+.diverso__producto--nombre,
+.diverso__producto--precio{
+    color: var(--color-negro);
+}
+
+.diverso__producto--detalle,
+.diverso__producto--precio{
+    font-weight: 700;
+}
+
+.diverso__producto--nombre{
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.diverso__producto--detalle{
+    color: var(--color-azul);
+    text-decoration: none;
+}
+
+.diverso__producto--detalle:hover{
+    color: var(--color-negro);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0px){
+    .diverso__producto--detalle{
+        font-size: .875rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .diverso__producto--detalle{
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+}

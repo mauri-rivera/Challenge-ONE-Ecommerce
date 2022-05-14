@@ -1,0 +1,54 @@
+.consola__card{
+    display: grid;
+    gap: .5rem;
+    grid-template-areas:
+        "card-imagen"
+        "card-detalle";
+    grid-template-columns: 100%;
+    margin: .5rem;
+}
+
+@media screen and (min-width: 0px){
+    .consola__card:nth-child(5),
+    .consola__card:nth-child(6){
+        display: none;
+    }
+
+    .consola__card{
+        grid-template-rows: 10.875rem auto;
+        height: 15.5625rem;
+        width: 9.75rem;
+    }
+}
+
+@media screen and (min-width: 768px){ 
+    .consola__card:nth-child(5),
+    .consola__card:nth-child(6){
+        display: none;
+    }
+
+    .consola__card{
+        grid-template-rows: 10.875rem auto;
+        height: 15.75rem;
+        width: 10.25rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .consola__card:nth-child(5),
+    .consola__card:nth-child(6){
+        display: flex;
+        flex-direction: column;
+    }
+
+    .consola__card{
+        grid-template-rows: 10.875rem auto;
+        height: 15.75rem;
+        width: 11rem;
+        transition: .3s;
+    }
+
+    .consola__card:hover{
+        box-shadow: 4px 4px 4px var(--sombra-suave);
+    }
+}

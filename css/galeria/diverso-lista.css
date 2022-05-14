@@ -1,0 +1,27 @@
+.diverso__lista{
+    align-items: center;
+    color: var(--color-azul);
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.diverso__lista:hover{
+    color: var(--color-negro);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0px){
+    .diverso__lista{
+        font-size: .875rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .diverso__lista{
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+}

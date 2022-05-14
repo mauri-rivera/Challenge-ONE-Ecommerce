@@ -1,0 +1,21 @@
+.consola__imagen{
+    height: 10.875rem;
+}
+
+@media screen and (min-width: 0px){
+    .consola__imagen{
+        width: 9.75rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .consola__imagen{
+        width: 10.25rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .consola__imagen{
+        width: 11rem;
+    }
+}

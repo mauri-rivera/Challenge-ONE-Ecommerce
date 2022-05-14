@@ -1,0 +1,36 @@
+.banner__boton{
+    align-items: center;
+    background: var(--color-azul);
+    border: none;
+    color: var(--color-blanco);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.banner__boton:hover{
+    background: var(--color-blanco);
+    color: var(--color-azul);
+    border: none;
+}
+
+@media screen and (min-width: 0px){
+    .banner__boton{
+        font-size: .875rem;
+        font-weight: 600;
+        height: 2.5rem;
+        line-height: 1rem;
+        width: 7.375rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .banner__boton{
+        font-size: 1rem;
+        font-weight: 400;
+        height: 3.1875rem;
+        line-height: 1.1875rem;
+        width: 8.0625rem;
+    }
+}

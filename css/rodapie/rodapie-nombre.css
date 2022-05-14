@@ -1,0 +1,41 @@
+.rodapie__nombre, 
+.rodapie__nombre:focus{
+    border: none;
+    box-sizing: border-box;
+    height: 3.5rem;
+    line-height: 1.25rem;
+    padding: .8rem .75rem 0 .75rem;  
+}
+
+.rodapie__nombre{
+    border-bottom: 2px solid var(--sombra-suave);
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    z-index: 0;
+}
+
+.rodapie__nombre:focus{
+    border-bottom: 2px solid var(--color-negro);
+    color: var(--color-negro);
+}
+
+.rodapie__nombre:focus + .rodapie__texto--nombre,
+.rodapie__nombre:not(:placeholder-shown) + .rodapie__texto--nombre{
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1rem;
+    top: 0.25rem; 
+}
+
+.rodapie__nombre:focus + .rodapie__texto--nombre{
+    color: var(--color-negro);
+}
+
+.rodapie__nombre::placeholder{
+    color: transparent;
+}
+
+.rodapie__nombre:focus::placeholder{
+    color: var(--sombra-letra);
+}

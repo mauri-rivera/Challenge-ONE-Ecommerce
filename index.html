@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>AluraGeek | E-commerce</title>
+        <link rel="icon" href="#">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/contenido.css">
+        <link rel="stylesheet" href="css/banner/banner-boton.css"> 
+        <link rel="stylesheet" href="css/banner/banner-frase.css"> 
+        <link rel="stylesheet" href="css/banner/banner-imagen.css"> 
+        <link rel="stylesheet" href="css/banner/banner-informacion.css"> 
+        <link rel="stylesheet" href="css/banner/banner-titulo.css"> 
+        <link rel="stylesheet" href="css/galeria/consola.css"> 
+        <link rel="stylesheet" href="css/galeria/consola-bloque.css">
+        <link rel="stylesheet" href="css/galeria/consola-card.css">
+        <link rel="stylesheet" href="css/galeria/consola-categoria.css">
+        <link rel="stylesheet" href="css/galeria/consola-contenido.css">
+        <link rel="stylesheet" href="css/galeria/consola-flecha.css">
+        <link rel="stylesheet" href="css/galeria/consola-imagen.css">
+        <link rel="stylesheet" href="css/galeria/consola-informacion.css">
+        <link rel="stylesheet" href="css/galeria/consola-item.css">
+        <link rel="stylesheet" href="css/galeria/consola-lista.css">
+        <link rel="stylesheet" href="css/galeria/consola-nota.css">
+        <link rel="stylesheet" href="css/galeria/consola-producto.css">
+        <link rel="stylesheet" href="css/galeria/consola-titulo.css">
+        <link rel="stylesheet" href="css/galeria/diverso.css">
+        <link rel="stylesheet" href="css/galeria/diverso-bloque.css">
+        <link rel="stylesheet" href="css/galeria/diverso-card.css">
+        <link rel="stylesheet" href="css/galeria/diverso-categoria.css">
+        <link rel="stylesheet" href="css/galeria/diverso-contenido.css">
+        <link rel="stylesheet" href="css/galeria/diverso-flecha.css">
+        <link rel="stylesheet" href="css/galeria/diverso-imagen.css">
+        <link rel="stylesheet" href="css/galeria/diverso-informacion.css">
+        <link rel="stylesheet" href="css/galeria/diverso-item.css">
+        <link rel="stylesheet" href="css/galeria/diverso-lista.css">
+        <link rel="stylesheet" href="css/galeria/diverso-nota.css">
+        <link rel="stylesheet" href="css/galeria/diverso-producto.css">
+        <link rel="stylesheet" href="css/galeria/diverso-titulo.css">
+        <link rel="stylesheet" href="css/galeria/starWars.css"> 
+        <link rel="stylesheet" href="css/galeria/starWars-bloque.css">
+        <link rel="stylesheet" href="css/galeria/starWars-card.css">
+        <link rel="stylesheet" href="css/galeria/starWars-categoria.css">
+        <link rel="stylesheet" href="css/galeria/starWars-contenido.css">
+        <link rel="stylesheet" href="css/galeria/starWars-flecha.css">
+        <link rel="stylesheet" href="css/galeria/starWars-imagen.css">
+        <link rel="stylesheet" href="css/galeria/starWars-informacion.css">
+        <link rel="stylesheet" href="css/galeria/starWars-item.css">
+        <link rel="stylesheet" href="css/galeria/starWars-lista.css">
+        <link rel="stylesheet" href="css/galeria/starWars-nota.css">
+        <link rel="stylesheet" href="css/galeria/starWars-producto.css">
+        <link rel="stylesheet" href="css/galeria/starWars-titulo.css">
+        <link rel="stylesheet" href="css/menu/menu.css">
+        <link rel="stylesheet" href="css/menu/menu-bloque.css">
+        <link rel="stylesheet" href="css/menu/menu-boton.css">
+        <link rel="stylesheet" href="css/menu/menu-busqueda.css">
+        <link rel="stylesheet" href="css/menu/menu-imagen.css">
+        <link rel="stylesheet" href="css/menu/menu-principal.css">
+        <link rel="stylesheet" href="css/menu/menu-login.css">
+        <link rel="stylesheet" href="css/menu/menu-logo.css">
+        <link rel="stylesheet" href="css/menu/menu-lupa.css">
+        <link rel="stylesheet" href="css/menu/menu-joystick.css">
+        <link rel="stylesheet" href="css/menu/menu-resultado.css">
+        <link rel="stylesheet" href="css/login/login.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-acceso.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-bloque.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-contacto.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-desarrollador.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-envio.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-error.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-formulario.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-imagen.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-informacion.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-joystick.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-logo.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-mensaje.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-menu.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-nombre.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-orientacion.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-texto.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-titulo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="menu">
+            <div class="menu__bloque">
+                <div class="menu__principal">
+                    <div class="menu__logo">
+                        <botton id="botonPrincipal" class="menu__boton--principal">
+                            <img src="img/sports_esports_black_24dp 1.png" class="menu__joystick">
+                            <img src="img/Texto.png" class="menu__imagen" alt="alurageek">
+                        </botton>
+                    </div>
+                    <div class="menu__busqueda">
+                        <form id="buscador">
+                            <input type="search" id="campoBusqueda" class="menu__resultado" placeholder="¿Qué desea buscar?" name="resultado"> 
+                            <botton id="botonBusqueda" class="menu__boton--busqueda">
+                                <img src="img/Icone.png" id="imagenLupa" class="menu__lupa--busqueda">
+                            </botton>
+                        </form> 
+                    </div>
+                </div> 
+                <div class="menu__login"> 
+                    <botton id="botonLogin" class="menu__boton--login">Login</botton>
+                    <botton id="botonLupa" class="menu__boton--lupa">
+                        <img src="img/Lupa.png" class="menu__lupa--login">
+                    </botton>
+                </div> 
+            </div>
+        </header>
+        <main> 
+            <div id="plantillaPrincipal" class="contenidoPrincipal">
+                <seccion class="banner">
+                    <div class="banner__imagen">
+                        <div class="banner__informacion">
+                            <h2 class="banner__titulo">Mayo Promocional</h2>
+                            <span class="banner__frase">Productos seleccionados con 33% de descuento</span>
+                            <botton class="banner__boton">Ver Consolas</botton>
+                        </div>
+                    </div>
+                </seccion>
+                <seccion class="starWars">
+                    <div class="starWars__bloque">
+                        <div class="starWars__categoria">
+                            <div class="starWars__informacion">
+                                <h2 class="starWars__titulo">Star Wars</h2>
+                                <a class="starWars__lista" href="#">Ver Todo <img class="starWars__flecha" src="img/arrow_back_black_24dp 1.png"></a>
+                            </div>
+                            <div class="starWars__contenido">
+                                <div class="starWars__card">
+                                    <div class="starWars__item">
+                                        <img src="img/star_wars/starWars1.png" alt="imagen1StarWars" class="starWars__imagen">
+                                    </div>
+                                    <div class="starWars__nota">
+                                        <span class="starWars__producto--nombre">Producto XYZ</span>
+                                        <span class="starWars__producto--precio">$ 60,00</span>
+                                        <a href="#" class="starWars__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="starWars__card">
+                                    <div class="starWars__item">
+                                        <img src="img/star_wars/starWars2.png" alt="imagen2StarWars" class="starWars__imagen">
+                                    </div>
+                                    <div class="starWars__nota">
+                                        <span class="starWars__producto--nombre">Producto XYZ</span>
+                                        <span class="starWars__producto--precio">$ 60,00</span>
+                                        <a href="#" class="starWars__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="starWars__card">
+                                    <div class="starWars__item">
+                                        <img src="img/star_wars/starWars3.png" alt="imagen3StarWars" class="starWars__imagen">
+                                    </div>
+                                    <div class="starWars__nota">
+                                        <span class="starWars__producto--nombre">Producto XYZ</span>
+                                        <span class="starWars__producto--precio">$ 60,00</span>
+                                        <a href="#" class="starWars__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="starWars__card">
+                                    <div class="starWars__item">
+                                        <img src="img/star_wars/starWars4.png" alt="imagen4StarWars" class="starWars__imagen">
+                                    </div>
+                                    <div class="starWars__nota">
+                                        <span class="starWars__producto--nombre">Producto XYZ</span>
+                                        <span class="starWars__producto--precio">$ 60,00</span>
+                                        <a href="#" class="starWars__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="starWars__card">
+                                    <div class="starWars__item">
+                                        <img src="img/star_wars/starWars5.png" alt="imagen5StarWars" class="starWars__imagen">
+                                    </div>
+                                    <div class="starWars__nota">
+                                        <span class="starWars__producto--nombre">Producto XYZ</span>
+                                        <span class="starWars__producto--precio">$ 60,00</span>
+                                        <a href="#" class="starWars__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="starWars__card">
+                                    <div class="starWars__item">
+                                        <img src="img/star_wars/starWars6.png" alt="imagen6StarWars" class="starWars__imagen">
+                                    </div>
+                                    <div class="starWars__nota">
+                                        <span class="starWars__producto--nombre">Producto XYZ</span>
+                                        <span class="starWars__producto--precio">$ 60,00</span>
+                                        <a href="#" class="starWars__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </seccion>
+                <seccion class="consola">
+                    <div class="consola__bloque">
+                        <div class="consola__categoria">
+                            <div class="consola__informacion">
+                                <h2 class="consola__titulo">Consolas</h2>
+                                <a class="consola__lista" href="#">Ver Todo <img class="consola__flecha" src="img/arrow_back_black_24dp 1.png"></a>
+                            </div>
+                            <div class="consola__contenido">
+                                <div class="consola__card">
+                                    <div class="consola__item">
+                                        <img src="img/consolas/consola1.png" alt="imagen1Consola" class="consola__imagen">
+                                    </div>
+                                    <div class="consola__nota">
+                                        <span class="consola__producto--nombre">Control XYZ</span>
+                                        <span class="consola__producto--precio">$ 60,00</span>
+                                        <a href="#" class="consola__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="consola__card">
+                                    <div class="consola__item">
+                                        <img src="img/consolas/consola2.png" alt="imagen2Consola" class="consola__imagen">
+                                    </div>
+                                    <div class="consola__nota">
+                                        <span class="consola__producto--nombre">Control y consola XYZ</span>
+                                        <span class="consola__producto--precio">$ 60,00</span>
+                                        <a href="#" class="consola__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="consola__card">
+                                    <div class="consola__item">
+                                        <img src="img/consolas/consola3.png" alt="imagen3Consola" class="consola__imagen">
+                                    </div>
+                                    <div class="consola__nota">
+                                        <span class="consola__producto--nombre">Consola XYZ</span>
+                                        <span class="consola__producto--precio">$ 60,00</span>
+                                        <a href="#" class="consola__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="consola__card">
+                                    <div class="consola__item">
+                                        <img src="img/consolas/consola4.png" alt="imagen4Consola" class="consola__imagen">
+                                    </div>
+                                    <div class="consola__nota">
+                                        <span class="consola__producto--nombre">Control XYZ</span>
+                                        <span class="consola__producto--precio">$ 60,00</span>
+                                        <a href="#" class="consola__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="consola__card">
+                                    <div class="consola__item">
+                                        <img src="img/consolas/consola5.png" alt="imagen5Consola" class="consola__imagen">
+                                    </div>
+                                    <div class="consola__nota">
+                                        <span class="consola__producto--nombre">Consola XYZ</span>
+                                        <span class="consola__producto--precio">$ 60,00</span>
+                                        <a href="#" class="consola__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="consola__card">
+                                    <div class="consola__item">
+                                        <img src="img/consolas/consola6.png" alt="imagen6Consola" class="consola__imagen">
+                                    </div>
+                                    <div class="consola__nota">
+                                        <span class="consola__producto--nombre">Game Boy Color</span>
+                                        <span class="consola__producto--precio">$ 60,00</span>
+                                        <a href="#" class="consola__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                            </div>          
+                        </div>
+                    </div>
+                </seccion>
+                <seccion class="diverso">
+                    <div class="diverso__bloque">
+                        <div class="diverso__categoria">
+                            <div class="diverso__informacion">
+                                <h2 class="diverso__titulo">Diversos</h2>
+                                <a class="diverso__lista" href="#">Ver Todo <img class="diverso__flecha" src="img/arrow_back_black_24dp 1.png"></a>
+                            </div>
+                            <div class="diverso__contenido">
+                                <div class="diverso__card">
+                                    <div class="diverso__item">
+                                        <img src="img/diversos/producto1.png" alt="imagen1Diverso" class="diverso__imagen">
+                                    </div>
+                                    <div class="diverso__nota">
+                                        <span class="diverso__producto--nombre">Camisa Atari</span>
+                                        <span class="diverso__producto--precio">$ 60,00</span>
+                                        <a href="#" class="diverso__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="diverso__card">
+                                    <div class="diverso__item">
+                                        <img src="img/diversos/producto2.png" alt="imagen2Diverso" class="diverso__imagen">
+                                    </div>
+                                    <div class="diverso__nota">
+                                        <span class="diverso__producto--nombre">Camisa SNES</span>
+                                        <span class="diverso__producto--precio">$ 60,00</span>
+                                        <a href="#" class="diverso__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="diverso__card">
+                                    <div class="diverso__item">
+                                        <img src="img/diversos/producto3.png" alt="imagen3Diverso" class="diverso__imagen">
+                                    </div>
+                                    <div class="diverso__nota">
+                                        <span class="diverso__producto--nombre">Control y consola XYZ</span>
+                                        <span class="diverso__producto--precio">$ 60,00</span>
+                                        <a href="#" class="diverso__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="diverso__card">
+                                    <div class="diverso__item">
+                                        <img src="img/diversos/producto4.png" alt="imagen4Diverso" class="diverso__imagen">
+                                    </div>
+                                    <div class="diverso__nota">
+                                        <span class="diverso__producto--nombre">Control y consola XYZ</span>
+                                        <span class="diverso__producto--precio">$ 60,00</span>
+                                        <a href="#" class="diverso__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="diverso__card">
+                                    <div class="diverso__item">
+                                        <img src="img/diversos/producto5.png" alt="imagen5Diverso" class="diverso__imagen">
+                                    </div>
+                                    <div class="diverso__nota">
+                                        <span class="diverso__producto--nombre">Control y consola XYZ</span>
+                                        <span class="diverso__producto--precio">$ 60,00</span>
+                                        <a href="#" class="diverso__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                                <div class="diverso__card">
+                                    <div class="diverso__item">
+                                        <img src="img/diversos/producto6.png" alt="imagen6Diverso" class="diverso__imagen">
+                                    </div>
+                                    <div class="diverso__nota">
+                                        <span class="diverso__producto--nombre">Producto XYZ</span>
+                                        <span class="diverso__producto--precio">$ 60,00</span>
+                                        <a href="#" class="diverso__producto--detalle">Ver Producto</a>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div> 
+                    </div>
+                </seccion>    
+            </div>  
+            <div id="plantillaNueva" class="contenidoNuevoEscondido"></div>
+        </main> 
+        <footer class="rodapie">
+            <div class="rodapie__bloque">
+                <div class="rodapie__informacion">
+                    <div class="rodapie__orientacion">
+                        <div class="rodapie__logo">
+                            <img src="img/sports_esports_black_24dp 1.png" class="rodapie__joystick">
+                            <img src="img/Texto.png" class="rodapie__imagen" alt="alurageek">
+                        </div>
+                        <div class="rodapie__menu">
+                            <a href="#" class="rodapie__acceso">Quienes somos</a>
+                            <a href="#" class="rodapie__acceso">Política de privacidad</a>
+                            <a href="#" class="rodapie__acceso">Programa de fidelidad</a>
+                            <a href="#" class="rodapie__acceso">Nuestras Tiendas</a>
+                            <a href="#" class="rodapie__acceso">Quiero ser franquiciado</a>
+                            <a href="#" class="rodapie__acceso">Anúncie aquí</a>
+                        </div>
+                    </div>
+                    <div class="rodapie__contacto">
+                        <h2 class="rodapie__titulo">Hable con nosotros</h2>
+                        <form class="rodapie__formulario" id="formulario">
+                            <div class="rodapie__campo">
+                                <input type="text" placeholder="Nombre(s) y Apellido" name="nombre" id="nombre" required class="rodapie__nombre" data-tipo="nombre" pattern="^(([A-ZÑ]{1}[a-zñ]{2,}[ ]{1})([A-ZÑ]{1}[a-zñ]{2,}[ ]{1})?([A-ZÑ]{1}[a-zñ]{2,}))$" maxlength="50">
+                                <label for="nombre" class="rodapie__texto--nombre">Nombre</label>
+                                <span class="rodapie__error--campo" id="errorNombre">No hay error</span>
+                            </div>
+                            <div class="rodapie__campo">
+                                <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" name="mensaje" id="mensaje" required class="rodapie__mensaje" data-tipo="mensaje" maxlength="300"></textarea>
+                                <label for="mensaje" class="rodapie__texto--mensaje">Mensaje</label>
+                                <span class="rodapie__error--campo" id="errorMensaje">No hay error</span>
+                            </div>
+                            <input type="submit" value="Enviar mensaje" class="rodapie__envio" id="envio">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="rodapie__desarrollador">
+                <span class="rodapie__texto--desarrollador">Desarrollado por Mauricio Rivera</span>
+                <span class="rodapie__texto--desarrollador">2022</span>
+            </div>
+        </footer>
+        <script src="./js/webApp.js" type="module"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.5/mobile-detect.min.js"></script>
+    </body>
+</html>
+   

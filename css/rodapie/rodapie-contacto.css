@@ -1,0 +1,30 @@
+.rodapie__contacto .rodapie__campo{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0px){
+    .rodapie__contacto{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .rodapie__contacto{
+        height: 100%;
+        width: 56.51041667%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .rodapie__contacto{
+        display: flex;
+        flex-direction: column;
+        height: 16rem;
+        width: 38.88888889vw;
+    }
+}
+

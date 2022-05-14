@@ -1,0 +1,13 @@
+@media screen and (min-width: 0px){
+    .menu__imagen{
+        height: .6475rem;
+        width: 4.474375rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .menu__imagen{
+        height: 1.15625rem;
+        width: 7.875rem;
+    }
+}
